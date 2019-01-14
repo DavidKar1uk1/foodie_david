@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'foodie_david/cli'
+FoodieDavid::CLI.start
