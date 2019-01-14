@@ -1,9 +1,11 @@
-RSpec.describe FoodieDavid do
-  it "has a version number" do
-    expect(FoodieDavid::VERSION).not_to be nil
+require 'foodie_david'
+
+RSpec.describe FoodieDavid::Food do
+  it "Broccoli is gross" do
+    expect(FoodieDavid::Food.portray("Broccoli")).to eql("Gross!")
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "anything else is delicious" do
+    expect(FoodieDavid::Food.portray("Not Broccoli")).to eql("Delicious!")
   end
 end

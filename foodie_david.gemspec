@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["DavidKar1uk1"]
   spec.email         = ["David.mwangi@kopokopo.com"]
 
-  spec.summary       = %q{Gemfile to rate food on its taste.}
+  spec.summary       = %q{Gemfile to rate food.rb on its taste.}
   spec.description   = %q{Basically my first trial with Gemfile and how to use it.}
   spec.homepage      = "https://github.com/DavidKar1uk1/foodie_david.git"
   spec.license       = "MIT"
@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
     spec.metadata["homepage_uri"] = "https://github.com/DavidKar1uk1/foodie_david.git"
     spec.metadata["source_code_uri"] = "https://github.com/DavidKar1uk1/foodie_david.git"
-    #spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+    spec.metadata["changelog_uri"] = "https://github.com/DavidKar1uk1/foodie_david/blob/master/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
